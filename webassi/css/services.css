@@ -1,0 +1,14 @@
+p{
+    font-size: large;
+    margin-bottom: 10px;
+}
+.footer-wrapper{
+    margin: top 0;
+}
+@media screen and (min-width:540px){
+    .footer-wrapper{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+ 
+}
