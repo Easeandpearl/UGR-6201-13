@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/rewan.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link href="/img/favicon.jpg" rel="icon">
+    
+</head>
+<body>
+    
+    <header>
+        <div class="header-wrapper">
+            <img class="header-wrapper__main-img" src="/img/africa.jpg" alt="representing African women icon" width="40" height="20">
+            <h1 class="header-wrapper__title">Rewan Beauty</h1>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+
+        </div>
+        
+       
+        
+        <nav class="topnav"> 
+
+            <div class="topnav__link">
+                <ul>
+                  <li><a href="/index.html"> Home</a></li>
+                  <li><a  href="/About Us.html"> About</a></li>
+                  <li><a href="/products.html"> Products</a></li>
+                  <li><a href="/Services.html"> Services</a></li>
+                  <li><a href="/Pricing.html"> Pricing</a></li>
+                  <li><a href="/best sellers.html"> Best Sellers</a></li>
+                  <li><a class="active" href="/Contact.html"> Contact</a></li>
+     
+                </ul>
+                
+            </div>
+     
+         </nav>
+    </header> 
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            topNav = document.querySelector(".topnav");
+            topNav.classList.toggle("active");
+        }
+    </script>
+   
+
+    
+
+    
+    <h2> Call to <a href=""> (+251)11 424 2424</a> to shop your needs </h2>
+
+    
+    <section class="appoint">
+        <img src="/img/appoint.jpg" alt="appointment">
+        
+    </section>
+
+
+    
+    <!-- <form name="myForm" action="/webassi/write.js" onsubmit="return validateForm()" method="post"> -->
+    <form class="forms">
+        <div class="input-control">
+            <label for="fname">First name:</label>
+            <input id="fname" name="fname" type="text">
+            <div class="error"></div>
+        </div>
+        
+        <div class="input-control">
+            <label for="lname">Last name:</label>
+            <input id="lname" name="lname" type="text">
+            <div class="error"></div>
+        </div>
+        
+        <div class="input-control">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email">
+            <div class="error"></div>
+
+        </div>
+        
+        <div class="input-control">
+            <label for="service">Service Needed:</label>
+            <input id="service" name="service" type="text">
+            <div class="error"></div>
+
+        </div>
+        
+         <div class="input-control">
+            <label for="date">Day of the Week:</label>
+            <input id="date" name="date" type="text, number">
+            <div class="error"></div>
+        </div>
+        
+        <div class="input-control">
+            <label for="time">Time Preference:</label>
+            <input id="time" name="time" type="time">
+            <div class="error"></div>
+        </div>
+        
+
+        <button type="submit" id="btn">Book Now</button>
+        <div class="popup" id="popup">
+            <h2>Thankyou</h2>
+            <p>Your details has been successfully submiited. Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+
+    </form>
+
+    
+    
+    <div class="contact">
+        <img src="/img/contact-us.jpg" alt="contact us ">
+    </div>
+
+     <div class="text">
+      <p>Come and Visit us at our Store</p>
+      <p>Bisrate Gebriel Africa Insurance Bldng 2nd floor</p>
+      <p>Addis Ababa, Ethiopia</p>
+      <b>Working Hours</b>
+      <b>Mon-Sun, 9AM-12PM</b>
+     </div>
+       <p><a href="best sellers.html"> Previous</a></p>
+
+
+    <footer class="footer-wrapper">
+        
+        <ul>
+            <li><a href="mailto:rewanbeuty333@gmail.com">rewanbeuty333@gmail.com</a></li>
+            <li><a href="tel:+251114242424"> (+251)11 424 2424</a></li>
+            <li><a href="https://www.twitter.com"><img src="/img/twitter.png" alt="twitter icon "width="40" height="15"></a></li>
+            <li><a href="https://www.facebook.com"><img src="/img/facebook.png" alt="facebook icon" width="40" height="15"></a></li>
+  
+          </ul>
+        
+    </footer>
+
+    
+    <script src="write.js"></script>
+</body>
+</html>
